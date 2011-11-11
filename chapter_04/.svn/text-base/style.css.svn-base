@@ -1,0 +1,44 @@
+/*
+Theme Name: Child Theme - Example
+Theme URI: http://wordpress.org/
+Description: Just a quick child theme for examples.
+Author: Raena
+Version: 1
+License: GNU General Public License
+Template: twentyeleven
+
+*/
+
+@import url('../twentyeleven/style.css');
+
+.speaker-title {
+	font-weightL normal
+}
+
+.speaker-title span {
+	font-weight: bold
+}
+
+.speaker-meta {
+	margin-bottom: 1em;
+	font-size: 12px;
+}
+
+.session-meta {
+	width: 260px;
+	padding: 0 20px 0 0;
+	float: left;
+}
+
+.session-meta dl {
+	margin: 0; padding: 0;
+}
+
+.archive-header h1 {
+	font-size: 2em;
+}
+
+article.session h2 {
+	font-weight: bold;
+	font-size: 1.5em;
+}

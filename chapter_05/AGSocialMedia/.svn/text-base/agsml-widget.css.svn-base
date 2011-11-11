@@ -1,0 +1,41 @@
+/* Antelope General Social Media Links */
+.agsml_widget {
+  overflow: hidden;
+  padding: 0;
+}
+
+.agsml_widget ul {
+  list-style-type:none;
+  margin:0;
+  padding:5px 0;
+}
+
+.agsml_widget ul li a{
+  padding: 5px 10px 5px 20px;
+  line-height:18px;
+  margin:0;
+}
+
+.agsml_widget ul li {
+  padding-bottom:5px;
+}
+
+.agsml_widget ul li.twitter a {
+  background:url(images/mini_twitter.png) no-repeat left; 
+  margin:0;
+}
+
+.agsml_widget ul li.facebook a {
+  background:url(images/mini_facebook.png) no-repeat left; 
+  margin:0;
+}
+
+.agsml_widget ul li.linkedin a {
+  background:url(images/mini_linkedin.png) no-repeat left; 
+  margin:0;
+}
+
+.agsml_widget ul li.youtube a {
+  background:url(images/mini_youtube.png) no-repeat left; 
+  margin:0;
+}

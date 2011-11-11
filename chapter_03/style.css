@@ -1,0 +1,45 @@
+/*
+Theme Name: Child Theme - Example
+Theme URI: http://wordpress.org/
+Description: Just a quick child theme for examples.
+Author: Raena
+Version: 1
+License: GNU General Public License
+Template: twentyten
+Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style, custom-menu
+*/
+
+@import url('../twentyten/style.css');
+
+
+#content ul.mini-list li {
+	margin-bottom: 24px;
+}
+
+#content ul.mini-list h2 {
+	font-weight: bold;
+}
+
+#content ul.mini-list h2,
+#content ul.mini-list p {
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+#content ul.mini-list li.break {
+	border: 1px solid #aaa;
+	background: #eee;
+	background: #fff;
+	padding: 1em 2em;
+	list-style-type: none;
+}
+
+
+
+/* Gallery example */
+.galleryitem {
+	width: 160px;
+	float: left;
+	overflow: clip;
+}
